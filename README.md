@@ -56,3 +56,23 @@ Then start the production server:
 bashnpm run start
 # or
 yarn start
+
+
+File Structure
+
+components/
+
+billing-section.tsx - Main billing section component with animations
+pricing-card.tsx - Pricing card component with tiers and features
+
+
+pages/
+
+page.tsx - Main page component
+
+
+public/ - Static assets (if any)
+styles/ - Custom CSS (if needed)
+package.json - Project dependencies and scripts
+README.md - This file
+tsconfig.json - TypeScript configuration
