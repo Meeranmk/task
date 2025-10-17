@@ -34,7 +34,7 @@ This is a Next.js project featuring a responsive billing section with animated p
    cd billing-section-project
 
 Install dependencies:
-bashnpm install
+npm install
 # or
 yarn install
 
@@ -42,11 +42,11 @@ Ensure you have the required GSAP library by installing it:
 bashnpm install gsap
 
 
-Usage
+## Usage
 
 Start the development server:
-bashnpm run dev
-# or
+npm run dev
+ or
 yarn dev
 
 Open your browser and navigate to http://localhost:3000 to view the project.
@@ -60,7 +60,7 @@ bashnpm run start
 yarn start
 
 
-File Structure
+## File Structure
 
 components/
 
@@ -79,7 +79,7 @@ package.json - Project dependencies and scripts
 README.md - This file
 tsconfig.json - TypeScript configuration
 
-Mobile Responsiveness
+## Mobile Responsiveness
 
 The design is optimized for mobile devices (e.g., iPhone SE at 320px width) with full-width cards to eliminate clear space.
 Key adjustments include:
@@ -91,7 +91,7 @@ Mobile dropdown navigation for accessibility.
 
 Test the responsiveness using Chrome DevTools or a mobile emulator.
 
-Contributing
+## Contributing
 
 Fork the repository.
 Create a new branch:
@@ -105,4 +105,4 @@ bashgit push origin feature/your-feature-name
 
 Open a pull request with a detailed description of your changes.
 
-License
+
