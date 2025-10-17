@@ -35,7 +35,7 @@ This is a Next.js project featuring a responsive billing section with animated p
 
 Install dependencies:
 npm install
-# or
+or
 yarn install
 
 Ensure you have the required GSAP library by installing it:
@@ -51,12 +51,12 @@ yarn dev
 
 Open your browser and navigate to http://localhost:3000 to view the project.
 To build the project for production:
-bashnpm run build
-# or
+npm run build
+ or
 yarn build
 Then start the production server:
-bashnpm run start
-# or
+npm run start
+or
 yarn start
 
 
