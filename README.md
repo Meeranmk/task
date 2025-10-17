@@ -1,35 +1,38 @@
-Billing Section Project
+# Billing Section Project
+
 This is a Next.js project featuring a responsive billing section with animated pricing cards, designed for a seamless user experience across desktop and mobile devices. The project includes a dynamic layout with GSAP animations and Tailwind CSS for styling.
-Table of Contents
 
-Features
-Prerequisites
-Installation
-Usage
-File Structure
-Mobile Responsiveness
-Contributing
-License
+## Table of Contents
 
-Features
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Mobile Responsiveness](#mobile-responsiveness)
+- [Contributing](#contributing)
+- [License](#license)
 
-Responsive billing section with a modern gradient background.
-Animated pricing cards with hover effects and scroll-triggered animations using GSAP.
-Mobile-friendly design with full-width cards and a dropdown navigation.
-Dynamic pricing tiers with customizable features.
-Smooth transitions and particle effects for an engaging UI.
+## Features
 
-Prerequisites
+- Responsive billing section with a modern gradient background.
+- Animated pricing cards with hover effects and scroll-triggered animations using GSAP.
+- Mobile-friendly design with full-width cards and a dropdown navigation.
+- Dynamic pricing tiers with customizable features.
+- Smooth transitions and particle effects for an engaging UI.
 
-Node.js (v14.x or later)
-npm (v6.x or later) or yarn
-Git (optional for cloning the repository)
+## Prerequisites
 
-Installation
+- Node.js (v14.x or later)
+- npm (v6.x or later) or yarn
+- Git (optional for cloning the repository)
 
-Clone the repository:
-bashgit clone https://github.com/your-username/billing-section-project.git
-cd billing-section-project
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/billing-section-project.git
+   cd billing-section-project
 
 Install dependencies:
 bashnpm install
@@ -59,20 +62,3 @@ yarn start
 
 
 File Structure
-
-components/
-
-billing-section.tsx - Main billing section component with animations
-pricing-card.tsx - Pricing card component with tiers and features
-
-
-pages/
-
-page.tsx - Main page component
-
-
-public/ - Static assets (if any)
-styles/ - Custom CSS (if needed)
-package.json - Project dependencies and scripts
-README.md - This file
-tsconfig.json - TypeScript configuration
