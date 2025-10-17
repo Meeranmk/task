@@ -11,7 +11,6 @@ This is a Next.js project featuring a responsive billing section with animated p
 - [File Structure](#file-structure)
 - [Mobile Responsiveness](#mobile-responsiveness)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -62,3 +61,48 @@ yarn start
 
 
 File Structure
+
+components/
+
+billing-section.tsx - Main billing section component with animations
+pricing-card.tsx - Pricing card component with tiers and features
+
+
+pages/
+
+page.tsx - Main page component
+
+
+public/ - Static assets (if any)
+styles/ - Custom CSS (if needed)
+package.json - Project dependencies and scripts
+README.md - This file
+tsconfig.json - TypeScript configuration
+
+Mobile Responsiveness
+
+The design is optimized for mobile devices (e.g., iPhone SE at 320px width) with full-width cards to eliminate clear space.
+Key adjustments include:
+
+w-full max-w-sm mx-auto sm:max-w-none for card width control.
+Reduced padding (p-4 on mobile, sm:p-6 on larger screens).
+Mobile dropdown navigation for accessibility.
+
+
+Test the responsiveness using Chrome DevTools or a mobile emulator.
+
+Contributing
+
+Fork the repository.
+Create a new branch:
+bashgit checkout -b feature/your-feature-name
+
+Make your changes and commit them:
+bashgit commit -m "Add your message here"
+
+Push to the branch:
+bashgit push origin feature/your-feature-name
+
+Open a pull request with a detailed description of your changes.
+
+License
